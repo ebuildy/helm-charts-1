@@ -30,7 +30,7 @@ $ helm install [RELEASE_NAME] prometheus-community/prometheus-logstash-exporter
 $ helm install --name [RELEASE_NAME] prometheus-community/prometheus-logstash-exporter
 ```
 
-The command deploys Elasticsearch Exporter on the Kubernetes cluster using the default configuration.
+The command deploys Logstash Exporter on the Kubernetes cluster using the default configuration.
 
 _See [configuration](#configuration) below._
 
