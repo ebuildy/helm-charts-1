@@ -3,6 +3,27 @@ entries:
   prometheus-logstash-exporter:
   - apiVersion: v1
     appVersion: 0.7.0
+    created: "2021-01-26T19:51:37.253112852Z"
+    description: Logstash stats exporter for Prometheus
+    digest: 3d013af38490094f407113f300c0d1547c0459b73894dc1b68684aa3a8231841
+    home: https://github.com/alxrem/prometheus-logstash-exporter
+    keywords:
+    - metrics
+    - logstash
+    - monitoring
+    kubeVersion: '>=1.10.0-0'
+    maintainers:
+    - email: ebuildy@gmail.com
+      name: ebuildy
+    - name: alxrem
+    name: prometheus-logstash-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-logstash-exporter
+    urls:
+    - https://github.com/ebuildy/helm-charts-1/releases/download/prometheus-logstash-exporter-0.1.1/prometheus-logstash-exporter-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.7.0
     created: "2021-01-26T18:12:43.613331683Z"
     description: Logstash stats exporter for Prometheus
     digest: faeb4bce529f2ce771df0f43970305061e6c16c73f3fed0b28c209908093f538
